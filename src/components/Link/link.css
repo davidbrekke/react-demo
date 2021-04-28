@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;
+  color: var(--primary-dark);
+  padding: 0.5em 1em;
+  width: auto;
+  border-radius: 0.5em;
+  transition: background 200ms ease-in-out;
+}
+a:hover {
+  background: var(--foreground2-dark);
+}

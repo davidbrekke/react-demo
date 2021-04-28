@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: header;
+  background-color: var(--foreground-dark);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+h1 {
+  color: var(--color);
+}
