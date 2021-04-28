@@ -1,0 +1,142 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: header;
+  background-color: var(--foreground-dark);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+h1 {
+  color: var(--color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-dark);
+  padding: 0.5em 1em;
+  width: auto;
+  border-radius: 0.5em;
+  transition: background 200ms ease-in-out;
+}
+a:hover {
+  background: var(--foreground2-dark);
+}
+
+nav {
+  background-color: var(--foreground-dark);
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+section {
+  background-color: var(--foreground-dark);
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: auto;
+}
+code,
+.code {
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  background-color: var(--foreground2-dark);
+  color: var(--secondary-dark);
+  font-size: 0.75rem;
+  text-decoration: wavy;
+  width: auto;
+}
+
+li {
+  margin: 1em 0;
+  list-style-type: circle;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 5px;
+}
+
+p {
+  padding: 0.5em;
+}
+
+#react-link {
+  padding: 0;
+  color: var(--react);
+}
+#yarn-link {
+  padding: 0;
+  color: var(--yarn);
+}
+#npm-link {
+  padding: 0;
+  color: var(--npm);
+}
+#react-link:hover,
+#yarn-link:hover,
+#npm-link:hover {
+  background: transparent;
+}
+#react-link::after,
+#yarn-link::after,
+#npm-link::after {
+  content: ' ';
+}
+
+#yarn-link::before,
+#npm-link::before {
+  content: ' ';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow: auto;
+}
+:root {
+  --background-dark: rgb(23, 23, 24);
+  --foreground-dark: rgb(35, 33, 39);
+  --foreground2-dark: rgb(53, 51, 57);
+  --primary-dark: rgb(255, 255, 255);
+  --secondary: rgb(145, 145, 145);
+  --color: #199e84;
+  --react: rgb(128, 216, 247);
+  --yarn: rgb(65, 135, 178);
+  --npm: rgb(180, 61, 73);
+  background-color: var(--foreground-dark);
+}
+#root {
+  color: var(--primary-dark);
+  width: 100vw;
+  max-width: 1200px;
+  min-width: 520px;
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    'header header'
+    'nav content';
+}
+h2 {
+  padding: 0 0 0.5em 1em;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
