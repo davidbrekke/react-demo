@@ -1,4 +1,4 @@
-# web-project-outline
+# react-demo project
 
 ### getting started
 
@@ -13,14 +13,11 @@ install dependencies
 🎬 `yarn start`
 : builds and starts up a dev [server](http://localhost:8000)
 
-👀 `yarn watch`
-: builds in watch mode
-
-🚀 `yarn build`
+👷 `yarn build`
 : builds in production mode
 
-👷 `yarn build-dev`
-: builds in development mode
+🚀 `yarn deploy`
+: deploys to github pages!
 
 🧼 `yarn clean`
 : cleans /dist folder
