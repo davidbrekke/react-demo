@@ -1,4 +1,4 @@
-# react-demo project
+# react in a 🌰 shell
 
 ### getting started
 
