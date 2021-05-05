@@ -30,17 +30,22 @@ li {
 
 h2 {
   text-transform: uppercase;
-  color: var(--secondary);
+  color: var(--color);
   letter-spacing: 5px;
 }
 
 p {
   padding: 0.5em;
+  margin: 0 0 0 0.5rem;
 }
 
 #react-link {
   padding: 0;
   color: var(--react);
+}
+#webpack-link {
+  padding: 0;
+  color: var(--yarn);
 }
 #yarn-link {
   padding: 0;
@@ -50,14 +55,22 @@ p {
   padding: 0;
   color: var(--npm);
 }
+#babel-link {
+  padding: 0;
+  color: var(--babel);
+}
 #react-link:hover,
 #yarn-link:hover,
-#npm-link:hover {
+#npm-link:hover,
+#webpack-link:hover,
+#babel-link:hover {
   background: transparent;
 }
 #react-link::after,
 #yarn-link::after,
-#npm-link::after {
+#npm-link::after,
+#webpack-link::after,
+#babel-link::after {
   content: ' ';
 }
 

@@ -19,7 +19,7 @@ export default () => {
         <a id="npm-link" target="_blank" href="https://www.npmjs.com">
           npm
         </a>
-        works as well
+        works the same
       </p>
     </article>
   )

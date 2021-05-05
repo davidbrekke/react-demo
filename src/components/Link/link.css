@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: var(--primary-dark);
+  color: var(--secondary);
   padding: 0.5em 1em;
   width: auto;
   border-radius: 0.5em;
@@ -8,4 +8,5 @@ a {
 }
 a:hover {
   background: var(--foreground2-dark);
+  color: var(--color);
 }

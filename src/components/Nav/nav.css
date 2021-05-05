@@ -1,7 +1,9 @@
 nav {
+  height: 100vh;
   background-color: var(--foreground-dark);
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  margin: 5rem 0 0 1rem;
+  position: fixed;
 }

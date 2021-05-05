@@ -1,13 +1,13 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   grid-area: header;
   background-color: var(--foreground-dark);
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }
 h1 {
-  color: var(--color);
+  color: var(--primary-dark);
+}
+#source-code {
+  margin: 0 1rem 0 0;
 }
